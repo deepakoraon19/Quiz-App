@@ -1,0 +1,36 @@
+body{
+    margin:0%;
+    color: hsl(193, 38%, 86%);
+    background-color: hsl(218, 23%, 16%);
+    text-align: center;
+
+}
+.container{
+    /*height: 80vh;
+    */margin: 10% auto;
+    width: 70vw;
+    line-height: 2rem;
+    padding:3%;
+    border-style: solid;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    border-color:hsl(150, 100%, 66%)   ;
+}
+.questions{
+    font-family: 'Roboto', sans-serif;;
+}
+.options{
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.option{
+    padding:5%
+}
+.option:hover{
+    color:hsl(150, 100%, 66%);
+}
