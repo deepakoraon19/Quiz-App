@@ -47,3 +47,15 @@ body{
     margin:5% auto;
 
 }
+.a{
+    order: 1;
+}
+.b{
+    order: 2;
+}
+.c{
+    order: 3;
+}
+.d{
+    order: 4;
+}
