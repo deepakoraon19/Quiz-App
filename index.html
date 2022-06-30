@@ -1,48 +1,50 @@
 <html>
-  <head>
-    <title>Movie Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="quiztype">
-        <div class="categories">
-          <form action="index.html" id="form">
+<head>
+  <title>Movie Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu&display=swap"
+  rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="quiztype">
+      <div class="categories">
+        <form id="form">
+          <div>
           <label for="categories" >Choose Category</label>
-            <select id="categories">
-              <option value="11">Films</option>
-              <option value="29">Comics</option>
-              <option value="18">Computers</option>
-              <option value="28">Vehicles</option>
-              <option value="10">Books</option>
-            </select>
+          <select id="categories" class="select">
+            <option value="11">Films</option>
+            <option value="29">Comics</option>
+            <option value="18">Computers</option>
+            <option value="28">Vehicles</option>
+            <option value="10">Books</option>
+          </select>
         </div>
-        <div class="difficulty">
+        <div class="difficulty" class="select">
           <label for="difficulty" >Choose Difficulty</label>
-            <select id="difficulty">
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>              
-            </select>
-        </div>
-        <input type="submit" id="submit" >
-      </form>       
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>              
+          </select>
+        </div>        
+      </form>   
+      <div class="btn" >Submit</div>    
+    </div>    
+  </div>
+  <!-- <div class="question-box">
+    <div class="questions"></div>
+    <div class="options">
+      <div class="option">
       </div>
-      <!-- <div class="question-box">
-        <div class="questions"></div>
-        <div class="options">
-          <div class="option">
-          </div>
-        </div>
-      </div> -->
     </div>
-  </body>
-  <script src="index.js"></script>
+  </div> -->
+</div>
+</body>
+<script src="index.js"></script>
 </html>
